@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+article {
+    background-color: white;
+    border: 2px dashed salmon;
+    width: 900px;
+    margin: auto;
+    height: 20rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#citation {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#auteur {
+    font-size: 1rem;
+}
+
+figure {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
